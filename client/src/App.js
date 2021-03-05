@@ -1,9 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+//Our imports
+import "./App.css";
+import Map from "./map";
 
+//function for our home page
 function App() {
   return (
-    <h1>Yelpington</h1>
+    <div>
+      <h1>Yelpington</h1>
+      <Map />
+    </div>
   );
 }
 
