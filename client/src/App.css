@@ -1,7 +1,24 @@
-/*----------Map-------------*/
-#mapContainer {
+body{
+  margin:auto;
+}
+
+#map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  width: 99vm;
   position: relative;
-  height: 30vh;
-  width:30vw;
-  background-color: blueviolet;
+}
+.board-containers{
+  width: 33vw;
+  z-index: 0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+#navBar-container{
+  width: 10vw;
+  display: flex;
+  align-content: space-between;
 }

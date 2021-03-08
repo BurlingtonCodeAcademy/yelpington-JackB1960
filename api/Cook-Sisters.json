@@ -1,13 +1,13 @@
 {
-"id": "cook-sisters",
+"id": "Cook-Sisters",
   "name": "Wally's at Night",
   "address": "28 Community Drive,  South Hero, VT.",
   "phone number": "(802) 372-4666",
   "hours": "5pm to 9pm Thursday through Sunday",
-  "lat, long" "(44.6466164,-73.297273)"
+  "coordinates": [44.6466164, -73.297273],
   
   "notes": [
-    "A hidden jem, incooperation with Wally's the Cook Sisters take over the kitchen and serve wonderful meals. Different menues every week."
-    "Mainly locals."
+    "A hidden jem, in cooperation with Wally's Place, the Cook Sisters take over the kitchen at night, thus the name 'Walley's at Night' and serve wonderful meals. Different menues every week. Mainly locals. A nice and quiet place to dine. With the pandemic it might be able to seat 4 parties of 4, maybe. Locals mostly use it for take out"
+    
   ]
 }

@@ -1,13 +1,17 @@
-//Our imports
 import "./App.css";
-import Map from "./map";
+import {useState} from "react"
+import Header from "./components/Header.js";
+import Map from "./components/map";
+import Info from "./components/info.js"
 
-//function for our home page
 function App() {
+  const[center, setCenter] = useState([44.67799602,-73.23253221]);
+  
+  const [zoom, setZoom] = useState(13)
+  
   return (
-    <div>
-      <h1>Yelpington</h1>
-      <Map />
+    <div className="App">
+     
     </div>
   );
 }

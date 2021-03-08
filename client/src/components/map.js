@@ -1,10 +1,9 @@
 //Imports
-
-import { MapContainer, TileLayer, Marker } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup} from 'react-leaflet';
 
 // Function to render the map
 export default function Map() {
-  const position = [44.64645495, -73.30783472];
+  const position = [44.67799602,-73.23253221]
 
   return (
     <div id="mapContainer">
