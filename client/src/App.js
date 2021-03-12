@@ -1,17 +1,23 @@
+// imports 
 import "./App.css";
-import {useState} from "react"
-import Header from "./components/Header.js";
+import { useState } from "react";
+import { Route, Switch } from "react-router-dom"
+// compent imports
 import Map from "./components/map";
-import Info from "./components/info.js"
+import RestInfo from "./components/restaurants.js";
 
-function App() {
-  const[center, setCenter] = useState([44.67799602,-73.23253221]);
+function App(props) {
   
-  const [zoom, setZoom] = useState(13)
-  
+
   return (
-    <div className="App">
-     
+    <div id="mainContainer">
+      <h1>Yelpington</h1>
+     <Switch>
+       <Route exact path = "/">
+         <Map/>
+       </Route>
+       <Route path = "/" component = {RestInfo}/>
+     </Switch>
     </div>
   );
 }

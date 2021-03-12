@@ -4,7 +4,8 @@
   "address": "123 King St.",
   "phone number": "555-1221",
   "hours": "7:00 am - 3:00 pm",
-  "coordinates": [44.8034054,-73.2877505]
+  "lat": "44.8034054",
+  "long": "-73.2877505",
   "notes": [
     "A very quite place on the lake. It serves as a BnB but also has a very nice restaurant where anyone is welcome. Reservations required. A big yuard with quite a few blue mmartin houses. Very goodfood"
   ]

@@ -3,7 +3,8 @@
   "address": " US 2 South Hero.",
   "phone number": "555-1221",
   "hours": "7:00 am - 3:00 pm",
-  "coordinates": [44.6457267,-73.3055627]
+  "lat": "44.6457267",
+  "long": "-73.3055627",
   "notes": [ "Take out only. Some say the best pizza ever. Her son, or brother, finally had a card readder installed so it's not just checks or cash."
   ]
 }

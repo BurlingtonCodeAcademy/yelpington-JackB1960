@@ -1,10 +1,11 @@
 {
-"id": "victorias",
+  "id": "victorias",
   "name": "Victoria's",
   "address": "123 King St.",
   "phone number": "",
   "hours": " pm",
-  "coordinates": [44.645905,-73.303513]
+  "lat": "44.645905",
+  "long": "-73.303513",
   "notes": [
     "A Thai and American cuisine right next door top the Blue Paddle, no comparison. Similar venue as the Blue Paddle, in an old home so not a lot of seating.MNot very p[opular so reservations not needed"
   ]
